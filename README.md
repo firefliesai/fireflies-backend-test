@@ -31,7 +31,7 @@ By the end of the project, we should have the following endpoints implemented:
 
 - `POST /api/meetings` - Create a new meeting with title, date, and participants.
 
-- `GET /api/meetings/:id` - Retrieve a specific meeting by ID. Include it's tasks.
+- `GET /api/meetings/:id` - Retrieve a specific meeting by ID. Include its tasks.
 
 - `PUT /api/meetings/:id/transcript` - Update a meeting with its transcript.
 
@@ -55,7 +55,7 @@ We want you to impress us with your attention to detail, but some points that wi
 - Documentation - clear instructions on a README file are the other developer's best friend.
 - Code quality and organization - we can only scale if we have high-quality, maintainable code
 - Ability to identify and fix the existing bug - security bugs would be a disaster for the company
-- Implementation of the stats (and the bonus, dashboard) endpoints using performant, aggregation queries
+- Implementation of the stats and dashboard endpoints using performant, aggregation queries
 - Error handling and input validation
 - Bonus points for unit tests or any additional features related to the AI bot concept
 - We know the auth mechanism is sub-optimal for a production system, but there's no need to refactor it. Our automated testing script will send the `x-user-id` header with known values, so using a different auth mechanism will create a lot of work for us.
