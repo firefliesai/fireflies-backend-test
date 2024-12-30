@@ -75,7 +75,7 @@ async function seedTasks() {
         userId: meeting.userId,
         title: `Task ${i + 1} from ${meeting.title}`,
         description: `This is a sample task from meeting ${meeting.title}`,
-        status: ["pending", "in-progress", "completed"][
+        status: ["pending", "inProgress", "completed"][
           Math.floor(Math.random() * 3)
         ],
         dueDate: new Date(
